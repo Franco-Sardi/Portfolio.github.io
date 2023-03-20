@@ -1,8 +1,7 @@
 <h1 align="center">Hola 👋, me llamo Franco Sardi Bottino</h1>
 <h3 align="center">¡Este es mi currículum de Programador!</h3>
 
-<br>
-<h3 align="center">¡Aquí te cuento un poco sobre este proyecto!</h3>
+<h2 align="center">¡Aquí te cuento un poco sobre este proyecto!</h2>
 
 - 💥 Este proyecto tienen la finalidad de exponer mi persona y mis habilidades como desarrollador web.
 
@@ -13,7 +12,8 @@
 - 📫 Contactame **francosardi2004@gmail.com**
 
 - 📄 Aquí puedes ver el pdf de mi CV [http://127.0.0.1:5505/Curriculum-Sardi.pdf](http://127.0.0.1:5505/Curriculum-Sardi.pdf)
-- 🚩 Aquí puedes ver en Github Pages mi CV [http://127.0.0.1:5505/Curriculum-Sardi.pdf](http://127.0.0.1:5505/Curriculum-Sardi.pdf)
+
+- 🚩 Aquí puedes ver en Github Pages mi CV [https://franco-sardi.github.io/Portfolio.github.io/)
 
 
 <h3 align="left">Connect with me:</h3>
