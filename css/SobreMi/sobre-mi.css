@@ -1,0 +1,31 @@
+.about__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Raleway';
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-bottom: 1rem; 
+    
+}
+.about{
+    background-color: #EAF2FD;
+
+}
+.firma{
+ width: 140px;
+ align-self: center;
+ padding: 1rem;
+}
+@media screen and (max-width: 600px) {
+    .about__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Raleway';
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem; 
+        
+    }
+} 

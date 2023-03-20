@@ -1,0 +1,9 @@
+.footer{
+    background-color:beige ;
+
+}
+.footer__rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

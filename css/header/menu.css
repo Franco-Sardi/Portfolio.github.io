@@ -1,0 +1,112 @@
+section.menu {
+    background-color:beige ;
+    display: flex;
+    justify-content: space-between;
+    /* arriba | derecha | abajo | izquierda */
+    padding-right: 10rem;
+    padding-left: 5rem;
+}
+
+.menu__header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    align-items: center; 
+    
+} 
+nav{
+    display: flex;
+    align-items: baseline
+}
+.menu__title{
+    margin: 2rem;
+
+}
+
+ul.menu__list{
+    display: flex;
+}
+
+.menu__list__item{
+    margin: 1rem;
+
+}
+.menu__list__item__contato{
+ font-size: 0.8rem  ;
+}
+
+
+/*media queries*/
+@media screen and (min-width: 970px ) {
+    section.menu {
+        background-color:beige ;
+        display: flex;
+        justify-content: space-between;
+        /* arriba | derecha | abajo | izquierda */
+        padding-right: 10rem;
+        padding-left: 5rem;
+    }
+    
+    .menu__header{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        align-items: center; 
+        
+    } 
+    .menu__list__item__contato2{
+        display: none;
+    }
+    nav{
+        display: flex;
+        align-items: baseline
+    }
+    .menu__title{
+        margin: 2rem;
+    
+    }
+    
+    ul.menu__list{
+        display: flex;
+    }
+    
+    .menu__list__item{
+        margin: 1rem;
+    
+    }
+    .menu__list__item__contato{
+     font-size: 0.8rem  ;
+    }
+    
+}
+
+@media screen and (max-width: 969px) {
+ 
+    nav{
+        display: none; 
+    }
+    .menu{
+        align-items: center;
+    }
+    .menu__header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu__list__item__contato2{
+        font-weight: 800;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    section.menu {
+        background-color:beige ;
+        display: flex;
+        justify-content: space-between;
+        /* arriba | derecha | abajo | izquierda */
+        padding-right: 1rem;
+        padding-left: 0rem;
+    }
+
+}

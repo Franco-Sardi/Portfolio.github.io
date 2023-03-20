@@ -1,0 +1,73 @@
+#formacion{
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+     /* padding-left: 7rem;
+    padding-right: 32rem ;   */
+    padding-bottom: 4rem;
+
+}
+
+.academic__courses{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.academic__courses__box{
+    width: 300px;
+    border: 1px solid;
+    border-radius: 5px;
+    align-content: center;
+    text-align: center;
+    background: beige;
+}
+
+.academic__courses__list{
+    padding: 0%;
+
+}
+
+.academic__title{
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+
+
+@media screen and (max-width: 969px) {
+ 
+    .academic__courses{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .academic__courses__box{
+        width: 210px;
+        border: 1px solid;
+        border-radius: 5px;
+        align-content: center;
+        text-align: center;
+        background: beige;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+ 
+    .academic__courses{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+       
+    }
+    
+    .academic__courses__box{
+        width: 210px;
+        border: 1px solid;
+        border-radius: 5px;
+        align-content: center;
+        text-align: center;
+        background: beige;
+        margin: 1rem;
+    }
+
+}
