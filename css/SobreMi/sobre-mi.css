@@ -13,7 +13,7 @@
 
 }
 .firma{
- width: 140px;
+ width: 340px;
  align-self: center;
  padding: 1rem;
 }
@@ -28,4 +28,9 @@
         padding-bottom: 1rem; 
         
     }
+    .firma{
+        width: 200px;
+        align-self: center;
+        padding: 1rem;
+       }
 } 
